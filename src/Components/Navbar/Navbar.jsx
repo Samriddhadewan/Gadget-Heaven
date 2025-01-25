@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Navbar = ({styles}) => {
+const Navbar = () => {
   return (
-    <div style={styles} className="navbar container mx-auto bg-base-100">
+    <div  className="navbar container mx-auto bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -30,7 +30,7 @@ const Navbar = ({styles}) => {
             <Link >Dashboard</Link>
           </ul>
         </div>
-        <Link className="btn btn-ghost text-xl font-bold">Gadget Heaven</Link>
+        <Link className=" text-xl font-bold">Gadget Heaven</Link>
       </div>
       <div className="navbar-center hidden md:flex">
         <ul className="menu menu-horizontal  px-1">
