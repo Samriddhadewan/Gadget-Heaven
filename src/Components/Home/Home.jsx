@@ -4,7 +4,6 @@ import Categories from "../Categories/Categories";
 
 const Home = () => {
     const categories = useLoaderData();
-    console.log(categories)
     return (
     <div>
         <Banner></Banner>
@@ -12,7 +11,7 @@ const Home = () => {
         <h1 className="text-center my-7 text-[#0B0B0B] text-4xl font-bold">Explore Cutting-Edge Gadgets</h1>
 
         <div className="container mx-auto flex flex-col lg:flex-row gap-7 min-h-[50vh]">
-            <div className="lg:w-[15%] ">
+            <div className=" lg:w-[15%] ">
                 <Categories categories={categories}></Categories>
             </div>
             <div className="flex-1 border">
