@@ -4,6 +4,7 @@ import {
 import Mainlayout from "../Layouts/Mainlayout/Mainlayout";
 import Dashboard from "../Components/Dashboard/Dashboard";
 import Home from "../Components/Home/Home";
+import Statistics from "../Components/Statistics/Statistics";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
         {
             path: "/dashboard",
             element: <Dashboard></Dashboard>
+        },
+        {
+            path: "/statistics",
+            element: <Statistics />
         }
     ]
     },
