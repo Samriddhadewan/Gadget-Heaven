@@ -1,0 +1,135 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Smartphone X12",
+      "product_image": "/images/smartphone-x12.jpg",
+      "category": "Smartphones",
+      "price": 799,
+      "description": "A powerful smartphone with the latest processor and camera technology.",
+      "specification": ["128GB Storage", "6.7-inch AMOLED Display", "5G Enabled", "5000mAh Battery"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Smartphone G10",
+      "product_image": "/images/smartphone-g10.jpg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "A budget-friendly smartphone with advanced features and sleek design.",
+      "specification": ["64GB Storage", "6.4-inch LCD Display", "4G LTE", "4000mAh Battery"],
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": 3,
+      "product_title": "Smartphone Z20 Pro",
+      "product_image": "/images/smartphone-z20.jpg",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Premium smartphone with exceptional camera capabilities.",
+      "specification": ["256GB Storage", "6.8-inch QHD Display", "5G Enabled", "6000mAh Battery"],
+      "availability": false,
+      "rating": 4.9
+    },
+    {
+      "product_id": 4,
+      "product_title": "Smartphone M2 Lite",
+      "product_image": "/images/smartphone-m2.jpg",
+      "category": "Smartphones",
+      "price": 599,
+      "description": "Compact and lightweight smartphone with a sleek design.",
+      "specification": ["128GB Storage", "6.1-inch Display", "4G LTE", "3500mAh Battery"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 5,
+      "product_title": "Smartphone Alpha Max",
+      "product_image": "/images/smartphone-alpha.jpg",
+      "category": "Smartphones",
+      "price": 849,
+      "description": "An all-rounder smartphone with a stunning design and flagship features.",
+      "specification": ["256GB Storage", "6.5-inch AMOLED Display", "5G Enabled", "4500mAh Battery"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 6,
+      "product_title": "Smartphone Ultra R2",
+      "product_image": "/images/smartphone-ultra-r2.jpg",
+      "category": "Smartphones",
+      "price": 1050,
+      "description": "A futuristic smartphone with an edge-to-edge display and powerful specs.",
+      "specification": ["512GB Storage", "6.9-inch Edge Display", "5G Enabled", "6000mAh Battery"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 7,
+      "product_title": "Smartwatch A2",
+      "product_image": "/images/smartwatch-a2.jpg",
+      "category": "Smartwatches",
+      "price": 299,
+      "description": "Track your fitness and stay connected with this stylish smartwatch.",
+      "specification": ["Heart Rate Monitor", "GPS", "7-Day Battery Life"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 8,
+      "product_title": "Smartwatch FitX",
+      "product_image": "/images/smartwatch-fitx.jpg",
+      "category": "Smartwatches",
+      "price": 399,
+      "description": "Advanced smartwatch designed for fitness enthusiasts.",
+      "specification": ["Sleep Tracker", "Waterproof", "9-Day Battery Life"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 9,
+      "product_title": "Smartwatch Pro V2",
+      "product_image": "/images/smartwatch-pro.jpg",
+      "category": "Smartwatches",
+      "price": 499,
+      "description": "Premium smartwatch with advanced health monitoring features.",
+      "specification": ["ECG Monitor", "Always-on Display", "10-Day Battery Life"],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": 10,
+      "product_title": "Laptop Pro 15",
+      "product_image": "/images/laptop-pro15.jpg",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "High-performance laptop for work and entertainment.",
+      "specification": ["15-inch Retina Display", "512GB SSD", "16GB RAM", "Intel i7"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 11,
+      "product_title": "Laptop Air 13",
+      "product_image": "/images/laptop-air13.jpg",
+      "category": "Laptops",
+      "price": 999,
+      "description": "Lightweight and powerful laptop for on-the-go productivity.",
+      "specification": ["13-inch Retina Display", "256GB SSD", "8GB RAM", "M1 Chip"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 12,
+      "product_title": "Gaming Laptop GX5",
+      "product_image": "/images/laptop-gx5.jpg",
+      "category": "Laptops",
+      "price": 1499,
+      "description": "Ultimate gaming laptop with top-notch graphics and performance.",
+      "specification": ["17-inch QHD Display", "1TB SSD", "32GB RAM", "NVIDIA RTX 3080"],
+      "availability": true,
+      "rating": 4.9
+    }
+  ]
+  

@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "category": "Smartphones"
+    },
+    {
+      "id": 2,
+      "category": "Smartwatches"
+    },
+    {
+      "id": 3,
+      "category": "Laptops"
+    },
+    {
+      "id": 4,
+      "category": "Tablets"
+    },
+    {
+      "id": 5,
+      "category": "Headphones"
+    },
+    {
+      "id": 6,
+      "category": "Cameras"
+    },
+    {
+      "id": 7,
+      "category": "Gaming Consoles"
+    }
+  ]
+  
