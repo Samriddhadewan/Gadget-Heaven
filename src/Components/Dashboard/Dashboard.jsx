@@ -11,7 +11,6 @@ const Dashboard = () => {
           </p>
 
           <div className="flex justify-center gap-2">
-            {/* Add `end` prop to ensure the active state applies only to exact paths */}
             <NavLink
               to="/dashboard"
               className={({ isActive }) =>

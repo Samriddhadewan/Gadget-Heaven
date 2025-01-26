@@ -11,6 +11,7 @@ import Cart from "../Components/Cart/Cart";
 import Wishlist from "../Components/WishList/Wishlist";
 import Error from "../Components/error/Error";
 
+
 const router = createBrowserRouter([
     {
       path: "/",
