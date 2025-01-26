@@ -18,7 +18,10 @@ const Wishlist = () => {
   } ,[products])
   
   return (
-    <div>
+    <div className="my-5">
+      <div>
+        <h1 className="text-3xl font-bold">Wishlist</h1>
+      </div>
       {
         wishList.map(product => <ListedComponent 
           key={product.product_id}
