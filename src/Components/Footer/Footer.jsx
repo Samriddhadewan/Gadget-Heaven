@@ -1,7 +1,12 @@
 
 const Footer = () => {
   return (
-    <footer className="footer flex justify-around mt-44 bg-white p-10">
+    <footer className="footer mt-44 bg-white pt-10">
+      <div className=" w-full">
+        <h1 className="mx-auto text-[#09080F] text-4xl font-bold">Gadget heaven</h1>
+        <p className="mx-auto text-[#09080F99]">Leading the way in cutting-edge technology and innovation.</p>
+      </div>
+          <div className=" footer flex justify-around  p-10">
   <nav>
     <h6 className="footer-title">Services</h6>
     <a className="link link-hover">Branding</a>
@@ -22,7 +27,8 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
-</footer>
+</div>
+    </footer>
   )
 }
 
