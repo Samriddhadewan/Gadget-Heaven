@@ -14,7 +14,7 @@ const Home = () => {
             <div className=" lg:w-[15%] ">
                 <Categories categories={categories}></Categories>
             </div>
-            <div className="flex-1 border">
+            <div className="flex-1">
                 <Outlet></Outlet>
             </div>
         </div>

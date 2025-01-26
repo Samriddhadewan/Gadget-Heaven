@@ -2,7 +2,7 @@
     {
       "product_id": 1,
       "product_title": "Smartphone X12",
-      "product_image": "/images/smartphone-x12.jpg",
+      "product_image": "https://i.postimg.cc/WzzhfP7x/THUMB-Galaxy-S24ultra-MAThumb-1440x960.jpg",
       "category": "Smartphones",
       "price": 799,
       "description": "A powerful smartphone with the latest processor and camera technology.",
@@ -13,7 +13,7 @@
     {
       "product_id": 2,
       "product_title": "Smartphone G10",
-      "product_image": "/images/smartphone-g10.jpg",
+      "product_image": "https://i.postimg.cc/nz8yPKGx/i-Phone-14-Pro-Deep-Purple-7300.jpg",
       "category": "Smartphones",
       "price": 699,
       "description": "A budget-friendly smartphone with advanced features and sleek design.",
@@ -24,7 +24,7 @@
     {
       "product_id": 3,
       "product_title": "Smartphone Z20 Pro",
-      "product_image": "/images/smartphone-z20.jpg",
+      "product_image": "https://i.postimg.cc/44QDW97C/Galaxy-S23-Ultra.jpg",
       "category": "Smartphones",
       "price": 999,
       "description": "Premium smartphone with exceptional camera capabilities.",
@@ -35,7 +35,7 @@
     {
       "product_id": 4,
       "product_title": "Smartphone M2 Lite",
-      "product_image": "/images/smartphone-m2.jpg",
+      "product_image": "https://i.postimg.cc/zG66ywMh/Apple-i-Phone-16-Pro-hero-240909-inline-jpg-large.jpg",
       "category": "Smartphones",
       "price": 599,
       "description": "Compact and lightweight smartphone with a sleek design.",
@@ -46,7 +46,7 @@
     {
       "product_id": 5,
       "product_title": "Smartphone Alpha Max",
-      "product_image": "/images/smartphone-alpha.jpg",
+      "product_image": "https://i.postimg.cc/RFQDpk01/Apple-i-Phone-15-blue-featured-image-packshot-review.jpg",
       "category": "Smartphones",
       "price": 849,
       "description": "An all-rounder smartphone with a stunning design and flagship features.",
@@ -57,7 +57,7 @@
     {
       "product_id": 6,
       "product_title": "Smartphone Ultra R2",
-      "product_image": "/images/smartphone-ultra-r2.jpg",
+      "product_image": "https://i.postimg.cc/WzNfB5DB/Apple-i-Phone-14-Pro-FINAL-featured-image-packshot-review-1.jpg",
       "category": "Smartphones",
       "price": 1050,
       "description": "A futuristic smartphone with an edge-to-edge display and powerful specs.",
@@ -68,7 +68,7 @@
     {
       "product_id": 7,
       "product_title": "Smartwatch A2",
-      "product_image": "/images/smartwatch-a2.jpg",
+      "product_image": "https://i.postimg.cc/RV0DGbxf/61-Zjl-BOp-r-L.jpg",
       "category": "Smartwatches",
       "price": 299,
       "description": "Track your fitness and stay connected with this stylish smartwatch.",
@@ -79,7 +79,7 @@
     {
       "product_id": 8,
       "product_title": "Smartwatch FitX",
-      "product_image": "/images/smartwatch-fitx.jpg",
+      "product_image": "https://i.postimg.cc/W1BYNNF6/712-YIFd-UHLL.jpg",
       "category": "Smartwatches",
       "price": 399,
       "description": "Advanced smartwatch designed for fitness enthusiasts.",
@@ -90,7 +90,7 @@
     {
       "product_id": 9,
       "product_title": "Smartwatch Pro V2",
-      "product_image": "/images/smartwatch-pro.jpg",
+      "product_image": "https://i.postimg.cc/VNXG5xXy/1117-Wx1400-H-4938378250-multi-MODEL.jpg",
       "category": "Smartwatches",
       "price": 499,
       "description": "Premium smartwatch with advanced health monitoring features.",
@@ -101,7 +101,7 @@
     {
       "product_id": 10,
       "product_title": "Laptop Pro 15",
-      "product_image": "/images/laptop-pro15.jpg",
+      "product_image": "https://i.postimg.cc/85HZmLyt/Galaxy-Book-S-Product-Images-1-scaled.jpg",
       "category": "Laptops",
       "price": 1299,
       "description": "High-performance laptop for work and entertainment.",
@@ -112,7 +112,7 @@
     {
       "product_id": 11,
       "product_title": "Laptop Air 13",
-      "product_image": "/images/laptop-air13.jpg",
+      "product_image": "https://i.postimg.cc/brw3CdW8/photo-1611186871348-b1ce696e52c9.jpg",
       "category": "Laptops",
       "price": 999,
       "description": "Lightweight and powerful laptop for on-the-go productivity.",
@@ -123,7 +123,7 @@
     {
       "product_id": 12,
       "product_title": "Gaming Laptop GX5",
-      "product_image": "/images/laptop-gx5.jpg",
+      "product_image": "https://i.postimg.cc/Fs1T0d0V/GB4-US-Copilot-Silver-001-Front-1600x1200.jpg",
       "category": "Laptops",
       "price": 1499,
       "description": "Ultimate gaming laptop with top-notch graphics and performance.",

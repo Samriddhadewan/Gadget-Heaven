@@ -16,12 +16,12 @@ const GadgetCards = () => {
             setCards(filterdDatas)
         }
         else{
-            setCards(data)
+            setCards(data);
         }
     
     },[category, data])
   return (
-    <div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {
             cards.map((gadget, idx) => <GadgetCard gadget={gadget} key={idx}></GadgetCard>)
         }
