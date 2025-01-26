@@ -43,7 +43,8 @@ const router = createBrowserRouter([
               },
               {
                 path: "/dashboard/wishlist",
-                element: <Wishlist></Wishlist>
+                element: <Wishlist></Wishlist>,
+                loader: () =>fetch('/gadgets.json')
               }
             ]
         },
