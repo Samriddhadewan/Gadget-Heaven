@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import ListedComponent from "../ListedComponent/ListedComponent";
 
 const Cart = () => {
-  const [cartList, setCartList] = useState([]);
-
-  const products = useLoaderData();
+    
+    const products = useLoaderData();
+    const [cartList, setCartList] = useState([]);
   useEffect(() => {
     const cartList = getCartList();
     const cartId = cartList.map((id) => parseInt(id));
@@ -18,6 +18,13 @@ const Cart = () => {
   }, [products]);
   
 
+  const handleSort = () => {
+    console.log('HANDLE SORT CLICKED');
+    const sorted = [...cartList].sort((a, b)=>b.price - a.price);
+    setCartList(sorted)
+    
+  }
+
 
 
   return (
@@ -26,7 +33,7 @@ const Cart = () => {
             <h1 className="text-3xl font-semibold">Cart</h1>
             <div className="flex items-center gap-4">
             <h1 className="text-3xl font-semibold">Total Cost</h1>
-            <button className="text-[#9538E2] flex gap-3 rounded-full border border-[#9538E2] px-3 py-3">Sort By Price <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <button onClick={()=> handleSort()} className="text-[#9538E2] flex gap-3 rounded-full border border-[#9538E2] px-3 py-3">Sort By Price <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
   <g clip-path="url(#clip0_13_2554)">
     <path d="M4 10C4 10.5304 4.21071 11.0391 4.58579 11.4142C4.96086 11.7893 5.46957 12 6 12C6.53043 12 7.03914 11.7893 7.41421 11.4142C7.78929 11.0391 8 10.5304 8 10C8 9.46957 7.78929 8.96086 7.41421 8.58579C7.03914 8.21071 6.53043 8 6 8C5.46957 8 4.96086 8.21071 4.58579 8.58579C4.21071 8.96086 4 9.46957 4 10Z" stroke="#8332C5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M6 4V8" stroke="#8332C5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
