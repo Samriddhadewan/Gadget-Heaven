@@ -1,4 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom"
+import { addToTheWishList } from "../utilites/addToWishList";
+import { addToTheCartList } from "../utilites/addToCartList";
 
 const GadgetDetails = () => {
   const params = useParams();
@@ -6,7 +8,18 @@ const GadgetDetails = () => {
   const {id} = params;
   const intId = parseInt(id)
   const product = products.find(product => product.product_id === intId);
-  const {product_title, product_image,price,specification,rating, description} = product;
+  const {product_title, product_image,price,specification,rating, description,} = product;
+
+
+  const handleAddToCart =(id) =>{
+    addToTheCartList(id);
+
+  }
+  const handleAddToWishList = (id) =>{
+        addToTheWishList(id)
+  }
+
+
   return (
     <div className="bg-[#9538E2] h-[40vh] w-full">
       <div className="text-center text-white">
@@ -15,7 +28,7 @@ const GadgetDetails = () => {
       </div>
       <div className="min-h-[200px] flex gap-4 p-6 md:h-[60vh] bg-white mx-auto rounded-2xl top-25 md:top-10 relative w-[80%] md:min-w-[1100px] ">
         <div className="flex-1 ">
-          <img className="h-full" src={product_image} alt="" />
+          <img className="h-full  object-contain w-full" src={product_image} alt="" />
         </div>
         <div className=" flex-1">
           <h1 className="text-[#09080f] text-3xl font-semibold">{product_title}</h1>
@@ -84,7 +97,7 @@ const GadgetDetails = () => {
           <p className="text-[#09080F] rounded-4xl bg-gray-100 px-3 py-2">{rating}</p>
           </div>
           <div className="flex gap-6 items-center mt-4">
-            <button className="bg-[#9538E2] flex gap-2 text-white px-4 rounded-4xl py-3">Add To Card 
+            <button onClick={()=> handleAddToCart(id)} className="bg-[#9538E2] flex gap-2 text-white px-4 rounded-4xl py-3">Add To Card 
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
   <g clip-path="url(#clip0_13_2378)">
     <path d="M4.30957 19C4.30957 19.5304 4.52028 20.0391 4.89536 20.4142C5.27043 20.7893 5.77914 21 6.30957 21C6.84 21 7.34871 20.7893 7.72378 20.4142C8.09886 20.0391 8.30957 19.5304 8.30957 19C8.30957 18.4696 8.09886 17.9609 7.72378 17.5858C7.34871 17.2107 6.84 17 6.30957 17C5.77914 17 5.27043 17.2107 4.89536 17.5858C4.52028 17.9609 4.30957 18.4696 4.30957 19Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -98,7 +111,7 @@ const GadgetDetails = () => {
     </clipPath>
   </defs>
           </svg></button>
-          <p className="p-3 border rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+          <p onClick={()=> handleAddToWishList(id)} className="p-3 border rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
   <g clip-path="url(#clip0_13_2385)">
     <path d="M19.8094 12.572L12.3094 20L4.80938 12.572C4.31469 12.0906 3.92503 11.512 3.66493 10.8726C3.40484 10.2333 3.27994 9.54694 3.29812 8.85693C3.3163 8.16691 3.47715 7.48813 3.77054 6.86333C4.06394 6.23853 4.48352 5.68125 5.00287 5.22657C5.52222 4.7719 6.13009 4.42968 6.78819 4.22147C7.4463 4.01327 8.14039 3.94358 8.82675 4.0168C9.51311 4.09001 10.1769 4.30455 10.7763 4.6469C11.3756 4.98925 11.8976 5.45199 12.3094 6.00599C12.7229 5.45602 13.2455 4.99731 13.8445 4.6586C14.4434 4.31988 15.1059 4.10844 15.7903 4.03751C16.4748 3.96658 17.1665 4.03769 17.8222 4.24639C18.4778 4.45508 19.0834 4.79687 19.6009 5.25036C20.1185 5.70385 20.5368 6.25928 20.8298 6.88189C21.1228 7.50449 21.2841 8.18088 21.3037 8.8687C21.3233 9.55653 21.2006 10.241 20.9435 10.8792C20.6864 11.5175 20.3003 12.0958 19.8094 12.578" stroke="#3A3A3A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
