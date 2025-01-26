@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
+
+  
   return (
     <div  className="navbar container mx-auto bg-base-100">
       <div className="navbar-start">
@@ -40,7 +43,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center  gap-4">
           <div className="bg-[white] border p-3 rounded-full">
           <svg
             xmlns="http://www.w3.org/2000/svg"

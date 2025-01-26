@@ -19,4 +19,6 @@ const addToTheCartList = (id) => {
         localStorage.setItem('cart-list',storedListStr);
     }
 }
+
+
 export { addToTheCartList, getCartList} ;
