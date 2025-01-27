@@ -1,8 +1,14 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
   return (
+
+
     <div>
+      <Helmet>
+        <title>Dashboard</title>
+      </Helmet>
       <div className="bg-[#9538E2] h-[30vh]">
         <div className="text-center pt-8">
           <h1 className="text-3xl text-white font-bold">Dashboard</h1>

@@ -1,7 +1,11 @@
+import { Helmet } from "react-helmet";
 
 const Faq = () => {
   return (
     <div className="container mx-auto mt-7">
+      <Helmet>
+        <title>FaQ</title>
+      </Helmet>
         <div className="collapse bg-white">
   <input type="radio" name="my-accordion-1" defaultChecked />
   <div className="collapse-title text-xl font-medium">Q1: What is Gadget Heaven?</div>
