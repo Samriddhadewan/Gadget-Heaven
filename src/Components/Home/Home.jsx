@@ -1,4 +1,4 @@
-import { Outlet, useLoaderData } from "react-router-dom"
+import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../Banner/Banner"
 import Categories from "../Categories/Categories";
 import { Helmet } from "react-helmet";
@@ -7,12 +7,12 @@ import { Helmet } from "react-helmet";
 const Home = () => {
     
     const categories = useLoaderData();
+
     return (
     <div>
         <Helmet>
             <title>Home</title>
         </Helmet>
-
 
         <Banner></Banner>
 
