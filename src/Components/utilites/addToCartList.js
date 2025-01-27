@@ -40,6 +40,9 @@ const addToTheCartList = (id) => {
             });
     }
 }
+const clearCartList = () => {
+    localStorage.removeItem('cart-list');
+}
 
 
-export { addToTheCartList, getCartList} ;
+export { addToTheCartList, getCartList, clearCartList} ;
