@@ -123,7 +123,7 @@ const Cart = () => {
               </defs>
             </svg>
           </button>
-          <button
+          <button disabled={cartList.length === 0}
             onClick={() => setIsModalOpen(true)}
             className="text-white rounded-full px-5 py-3 bg-[#9538E2]"
           >
